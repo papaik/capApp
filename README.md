@@ -25,7 +25,7 @@ File or Folder | Purpose
 Learn more at https://cap.cloud.sap/docs/get-started/.
 
 
-## dev phase   
+## dev phase to create the currect flow  
 npm install -g mbt
 npm install --global @sap/cds-dk
 mkdir capApp
