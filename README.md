@@ -23,3 +23,18 @@ File or Folder | Purpose
 ## Learn More
 
 Learn more at https://cap.cloud.sap/docs/get-started/.
+
+
+## dev phase   
+npm install -g mbt
+npm install --global @sap/cds-dk
+mkdir capApp
+cd capApp
+cds init
+cds add mta
+mtb build
+
+git init
+git remote add origin https://github.com/papaik/capApp.git
+git branch -M main
+git push -u origin main
